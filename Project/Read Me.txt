@@ -1,0 +1,5 @@
+﻿https://github.com/KrisJanssen/Umbraco7-Standard-Membership
+
+https://github.com/warrenbuckley/CWS-Umbraco-Standard-Membership
+
+https://github.com/warrenbuckley/CWS-Start
