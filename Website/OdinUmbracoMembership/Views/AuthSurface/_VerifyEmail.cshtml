@@ -1,0 +1,19 @@
+﻿@using System.Web.Mvc
+@using System.Web.Mvc.Html
+@using Umbraco.Web
+@model MicrositeAmey.Membership.Models.ResetPasswordViewModel
+
+@if (Convert.ToBoolean(TempData["IsSuccessful"]))
+{
+    <div class="alert alert-success">
+        <h4>Success</h4>
+        <p>You have now verified your email address and can <a href='/login/' class='alert-link'>login</a>.</p>
+    </div>
+}
+else
+{
+    <div class="alert alert-danger">
+        <h4>Error</h4>
+        <p>Unfortunately we were unable to verify you with those details, please try again.</p>
+    </div>
+}

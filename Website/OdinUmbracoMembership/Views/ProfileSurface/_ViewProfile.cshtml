@@ -1,0 +1,30 @@
+@model MicrositeAmey.Membership.Models.ViewProfileViewModel
+
+<h3>View Profile</h3>
+
+<h2>@Model.Name</h2>
+<dl>
+    @*<img src="@(Helpers.gravatarURL(Model.EmailAddress))" alt="@Model.Name" />*@
+    <dt>Email</dt>
+    <dd>@Model.EmailAddress</dd>
+    @*<dt>Description</dt>
+    <dd>@Model.Description</dd>*@
+
+    @*<dt>LinkedIn</dt>
+    <dd>@Model.LinkedIn</dd>*@
+    @*<dt>Skype</dt>
+    <dd>@Model.Skype</dd>*@
+    @*<dt>Twitter</dt>
+    <dd>@Model.Twitter</dd>*@
+
+    <dt>Member ID</dt>
+    <dd>@Model.MemberID</dd>
+    <dt>Member Type</dt>
+    <dd>@Model.MemberType</dd>
+    <dt>No Of Logins</dt>
+    <dd>@Model.NumberOfLogins</dd>
+    <dt>No of profile views</dt>
+    <dd>@Model.NumberOfProfileViews</dd>
+    <dt>Last Login Date</dt>
+    <dd>@Model.LastLoginDate</dd>
+</dl>
